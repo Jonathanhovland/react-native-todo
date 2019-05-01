@@ -9,9 +9,9 @@ class Header extends Component {
           value={this.props.value}
           onChangeText={this.props.onChange}
           onSubmitEditing={this.props.onAddItem}
-          placeholder="what needs to be done?"
+          placeholder="What needs to be done?"
           blurOnSubmit={false}
-          returnKeyType="done"
+          returnKeyType="Done"
           style={styles.input}
         />
       </View>
@@ -22,7 +22,7 @@ class Header extends Component {
 const styles = StyleSheet.create({
     header: {
         paddingHorizontal: 16,
-        flexDirection: 'column',
+        flexDirection: 'row',
         justifyContent: 'space-around',
         alignItems: 'center'
     },
